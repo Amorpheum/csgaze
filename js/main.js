@@ -3,7 +3,10 @@ window.applyKalmanFilter = true;
 
 predGaze = null;
 
-
+// Get IP
+$.getJSON('http://ipinfo.io', function(data){
+    console.log(data);
+});
 
 $(document).mousemove((event) => {
     $('#debugMouseCoords').text(
