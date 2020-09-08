@@ -4,7 +4,7 @@ window.applyKalmanFilter = true;
 predGaze = null;
 
 // Get IP
-$.getJSON('http://ipinfo.io', function(data){
+$.getJSON('https://ipinfo.io', function(data){
     console.log(data);
 });
 
